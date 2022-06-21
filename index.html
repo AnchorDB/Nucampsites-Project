@@ -325,22 +325,7 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script>
-        $(function() {
-            $('.carousel').carousel ( { interval: 2000});
-            $('#carouselBtn').click(function(){
-                if ($("#carouselBtn").children("i").hasClass("fa-pause")) {
-                    $(".carousel").carousel("pause");
-                    $("#carouselBtn").children("i").removeClass("fa-pause");
-                    $("#carouselBtn").children("i").addClass("fa-play");
-                } else {
-                    $(".carousel").carousel("cycle");
-                    $("#carouselBtn").children("i").removeClass("fa-play");
-                    $("#carouselBtn").children("i").addClass("fa-pause"); 
-                }
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
